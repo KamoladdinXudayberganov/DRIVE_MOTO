@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-text span{
+    color: white;
+    background-color: #1C62CD;
+    width: 100px;
+}
+.main-box{
+    height: 482px;  
+}
+.banner__right-box-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 126px;
+    background-color: #F0F0F4;
+}
+.main-container{
+    justify-content: space-between;
+}

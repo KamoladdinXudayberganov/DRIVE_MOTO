@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer__container{
+    width: 100%;
+    background-color: #F0F0F4;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.footer__item__one{
+    margin-top: 100px;
+}
+.footer__item__two{
+    margin-top: 100px;
+}
+.footer__item__thiree{
+    margin-top: 100px;
+}
+.footer__item__for{
+    margin-top: 140px;
+}
+.footer__item__for img{
+    margin-left: 15px;
+    width: 50px;
+}
+.footer__container input{
+    height: 40px;
+    border: none;
+}
+.footer__container button{
+    height: 40px;
+    border: none;
+    background-color:#1C62CD ;
+    color: white;
+    width: 100px;
+}

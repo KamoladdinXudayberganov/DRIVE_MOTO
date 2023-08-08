@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search-container{
+    margin-bottom: 100px;
+}
+.box__item1{
+    display: flex;
+    justify-content: start;
+}
+.box__item2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box__item2 input{
+    width: 100%;
+    height: 60px;
+    padding-left: 25px
+}
+.box__item2 button{
+    width: 100px;
+    height: 60px;
+    border: none;
+    background-color: #1C62CD;
+    color: white;
+}
+.box__item1 h5{
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+.box__item1 h5:hover{
+    border-bottom: 2px solid #1C62CD;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.smallbanner__box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+    width: 100%;
+    background-color: #1C62CD;
+    color: white;
+    height: 165px;
+}
+.smallbanner__box__img img{
+    width: 170px;
+}
+.smallbanner__btn button{
+    width: 250px;
+    height: 60px;
+    border: none;
+    color: black;
+    background-color: white;
+}

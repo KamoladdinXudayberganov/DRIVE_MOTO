@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.products__text ul{
+    display: flex;
+    width: 100%;
+    font-size: 22px;
+    margin-top: 50px;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    border-bottom: 2px solid transparent; 
+}
+.products__title{
+    margin-top: 70px;
+}
+.products__text li {
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-right: 30px;
+}
+.products__text li:hover{
+    border-bottom: 2px solid #1C62CD;
+}
+.products__card{
+    border: 2px solid #E0E0E0   ;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.products__bag {
+    width: 200px;
+}
+.products__basket{
+    background-color: #1C62CD;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border: none;
+}
+.products__container__card{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.products__card{
+    position: relative;
+}
+.products__card button:focus{
+    background-color: green;
+}
+.basket__count {
+    right: 3px;
+    bottom: 0;
+    position: absolute;
+    color: #fff;
+}
+.products__footer__btn {
+    text-align: center;
+}
+.products__footer__btn button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #E0E0E0;
+}
+.products__footer__btn button:hover{
+    background-color: #aaaaaa;
+}
